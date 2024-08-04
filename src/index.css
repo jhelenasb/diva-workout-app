@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+span {
+  font-family: inherit;
+  font-weight: inherit;
+}
+
+.pinkShadow {
+  box-shadow: 3px 3px 0 0 #c154c1;
+}
+
+.pinkShadow:hover {
+  transform: translate(-3px, -3px);
+  box-shadow: 7px 7px 0 0 #c154c1;
+}
