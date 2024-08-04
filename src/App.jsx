@@ -1,7 +1,6 @@
 import { useState } from "react";
 import DivaGlow from "./components/DivaGlow";
 import Creatrix from "./components/Creatrix";
-import Workout from "./components/Workout";
 
 function App() {
   const [workout, setWorkout] = useState(null);
